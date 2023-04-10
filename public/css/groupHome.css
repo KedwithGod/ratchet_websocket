@@ -1,0 +1,291 @@
+body {
+    font-family: sans-serif;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  form {
+    margin-bottom: 24px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+
+  button[type="submit"],
+  button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Previous CSS styles omitted for brevity */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .modal-content h2 {
+    margin-top: 0;
+  }
+
+  .join-group-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-right: 8px;
+  }
+
+  .join-group-button:hover {
+    background-color: #0062cc;
+  }
+
+  .cancel-button {
+    background-color: #ccc;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .cancel-button:hover {
+    background-color: #999;
+  }
+
+  /* Previous CSS styles omitted for brevity */
+
+#my-groups {
+    list-style: none;
+    padding: 0;
+  }
+
+  .mine{
+    color: goldenrod;
+    cursor: pointer;
+  }
+
+  #my-groups li {
+    margin-bottom: 8px;
+  }
+
+  #my-groups a {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  #my-groups a:hover {
+    background-color: #0062cc;
+  }
+
+.others_{
+    cursor: pointer;
+    color: rgb(5, 5, 139);
+}
+
+.dialog_button{
+    width: 15.55vw;
+    margin-top: 0;
+  }
+
+
+  .text_field{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.83vw;
+    width: 32.67vw;
+    height: 3.33vw;
+    background: white;
+    border: 0.069vw solid rgb(247, 246, 246);
+    border-radius: 0.5vw;
+    font-weight: 400;
+    font-size: 14.4px;
+    line-height: 1.66vw;
+    color: gray;
+    margin-bottom: 24px;
+
+ }
+ .primary_button{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.833vw 1.66vw;
+    width: 12vw;
+    height: 3.33vw;
+    background:rgb(5, 5, 139);
+    border-radius: 0.56vw;
+    color:white;
+    border:0;
+    margin-top: 5vw;
+    margin-right: 13.33vw;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+ }
+
+ .blue_border_button{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 0.7vw 16px;
+   gap: 0.56vw;
+   width: 6.6vw;
+   height: 2.77vw;
+   background: white;
+   border: 0.07vw solid rgb(5, 5, 139);
+   border-radius: 0.56vw;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: 14px;
+   color:rgb(5, 5, 139);
+ }
+
+ .disable_button,.enable_button{
+    display: flex;
+    gap: 16px;
+
+}
+.yes_disable,.yes_enable{
+    width: 15.56vw;
+    height: 3.33vw;
+    font-size: 16px;
+    font-weight: 500;
+    color:red ;
+    border: 0.07vw solid red ;
+    background-color:white;
+    margin:0;
+}
+.no_cancel,.save_customer_details{
+    width: 15.56vw;
+    height: 3.33vw;
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+    background-color: rgb(5, 5, 139);
+    margin:0;
+}
+.save_customer_details{
+    background-color:rgb(5, 5, 139);
+    color: white
+}
+
+.yes_enable{
+    background-color:rgb(5, 5, 139);
+}
+.dialog-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+/* disable customer */
+.disable_customer,.enable_customer{
+    box-sizing: border-box;
+    width: 36.67vw;
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    /* white; */
+    border-radius: 16px;
+    gap:24px;
+    padding: 2.23vw;
+
+}
+
+.disable_title,.enable_title{
+
+    font-size: 1.25vw;
+    color:rgb(5, 5, 139);
+}
+
+.center{
+    width: 36.67vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
